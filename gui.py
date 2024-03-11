@@ -128,14 +128,22 @@ class meuapp:
             #repeticoes infinitas 
             while True:
                  #vai percorrer todos os valores do array
+                 time.sleep(1)
+
+                 a=1
+
                  for posicao in posicoes:
                     #mover o mouse nas cordenas
-                    pyautogui.moveTo(posicao[0], posicao[1], duration=1)
+                    if a == 3:
+                            pyautogui.moveTo(posicao[0], posicao[1], duration=4)
+                            pyautogui.click()
+                            time.sleep(1)
+                    else:
+                            a=a+1
+                            pyautogui.moveTo(posicao[0], posicao[1], duration=1)
+                            pyautogui.click()
+                            time.sleep(1)
 
-                    for _ in range(num_cliques_por_posicao):
-                        pyautogui.click()
-
-                        time.sleep(1)
 
          
 #-----------------------------------MAIN-------------------------------
