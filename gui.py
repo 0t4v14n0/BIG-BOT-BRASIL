@@ -135,14 +135,15 @@ class meuapp:
                  for posicao in posicoes:
                     #mover o mouse nas cordenas
                     if a == 3:
-                            pyautogui.moveTo(posicao[0], posicao[1], duration=4)
-                            pyautogui.click()
-                            time.sleep(1)
+                        pyautogui.moveTo(posicao[0], posicao[1], duration=4)
+
                     else:
-                            a=a+1
-                            pyautogui.moveTo(posicao[0], posicao[1], duration=1)
-                            pyautogui.click()
-                            time.sleep(1)
+                        a=a+1
+                        pyautogui.moveTo(posicao[0], posicao[1], duration=1)
+
+                    pyautogui.click()
+                    time.sleep(1)
+
 
 
          
