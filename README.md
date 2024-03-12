@@ -4,5 +4,5 @@
 <p>Projeto para automatização do processo de votação: O bot realiza o preenchimento dos formulários de votação no site oficial do BBB de forma automática. </p>
 <p>Duas janelas uma para colocar as respectivas posicoes e outra para coletar as cordenadas.</p>
 
-Tecnologias
-  🐍
+<h2>Tecnologias<h2>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg" width="40" />
